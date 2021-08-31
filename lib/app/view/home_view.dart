@@ -12,7 +12,6 @@ class HomeView  extends StatelessWidget {
       body: Stack(
         children: [
           HeaderWidget(allowLogout: true, function: _logout),
-          Text("Teste")
         ],
       ),      
     );
