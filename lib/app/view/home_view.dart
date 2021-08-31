@@ -11,7 +11,8 @@ class HomeView  extends StatelessWidget {
       appBar: AppBarWidget.getAppBar(title: "Home View"),
       body: Stack(
         children: [
-          HeaderWidget(allowLogout: true, function: _logout)
+          HeaderWidget(allowLogout: true, function: _logout),
+          Text("Teste")
         ],
       ),      
     );
